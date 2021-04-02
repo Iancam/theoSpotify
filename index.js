@@ -17,16 +17,14 @@ const [get, put, post, del] = "get put post delete"
   );
 const { app, login } = auth(redirect_uri);
 
+const playUrl = `https://api.spotify.com/v1/me/player/play`;
+const meUrl = "https://api.spotify.com/v1/me";
+const streamerUrl = (sid) => `https://api.spotify.com/v1/${sid}/player`;
+
 let users = [];
 app.use("/stream", login, async (req, res) => {});
 app.use("/listen/", (req, res) => {});
 app.use("/listen/:sid", login, async (req, res) => {});
-
-/**
- * the streamer makes a link and then shares it with fans
- *
- * fans get link, click it and they are suddenly listening to the right stuff
- */
 
 console.log(
   "Options: " +
