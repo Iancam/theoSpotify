@@ -1,0 +1,94 @@
+{
+  "timestamp": 1617220411942,
+  "context": {
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/6gF36WTYlBAfxNxyfx6LCV"
+    },
+    "href": "https://api.spotify.com/v1/playlists/6gF36WTYlBAfxNxyfx6LCV",
+    "type": "playlist",
+    "uri": "spotify:playlist:6gF36WTYlBAfxNxyfx6LCV"
+  },
+  "progress_ms": 28621,
+  "item": {
+    "album": {
+      "album_type": "album",
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/0AD4odMWVQ2wUSlgxOB5Rl"
+          },
+          "href": "https://api.spotify.com/v1/artists/0AD4odMWVQ2wUSlgxOB5Rl",
+          "id": "0AD4odMWVQ2wUSlgxOB5Rl",
+          "name": "Jeff Beck",
+          "type": "artist",
+          "uri": "spotify:artist:0AD4odMWVQ2wUSlgxOB5Rl"
+        }
+      ],
+      "external_urls": {
+        "spotify": "https://open.spotify.com/album/2VKdeHabc3wTmiQBd8yGft"
+      },
+      "href": "https://api.spotify.com/v1/albums/2VKdeHabc3wTmiQBd8yGft",
+      "id": "2VKdeHabc3wTmiQBd8yGft",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b27312c2f6a50c1b8852bb292866",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/ab67616d00001e0212c2f6a50c1b8852bb292866",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67616d0000485112c2f6a50c1b8852bb292866",
+          "width": 64
+        }
+      ],
+      "name": "You Had It Coming",
+      "release_date": "2001-02-06",
+      "release_date_precision": "day",
+      "total_tracks": 10,
+      "type": "album",
+      "uri": "spotify:album:2VKdeHabc3wTmiQBd8yGft"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0AD4odMWVQ2wUSlgxOB5Rl"
+        },
+        "href": "https://api.spotify.com/v1/artists/0AD4odMWVQ2wUSlgxOB5Rl",
+        "id": "0AD4odMWVQ2wUSlgxOB5Rl",
+        "name": "Jeff Beck",
+        "type": "artist",
+        "uri": "spotify:artist:0AD4odMWVQ2wUSlgxOB5Rl"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 230826,
+    "explicit": false,
+    "external_ids": {
+      "isrc": "USSM10014403"
+    },
+    "external_urls": {
+      "spotify": "https://open.spotify.com/track/3MA0KXICplixJO2kqyp5Fr"
+    },
+    "href": "https://api.spotify.com/v1/tracks/3MA0KXICplixJO2kqyp5Fr",
+    "id": "3MA0KXICplixJO2kqyp5Fr",
+    "is_local": false,
+    "name": "Nadia",
+    "popularity": 37,
+    "preview_url": "https://p.scdn.co/mp3-preview/fd6945ee2407f20fb43875bc87ac2b62b8b2d87f?cid=c6351d32a22c40039bcddbbd2befdbf5",
+    "track_number": 5,
+    "type": "track",
+    "uri": "spotify:track:3MA0KXICplixJO2kqyp5Fr"
+  },
+  "currently_playing_type": "track",
+  "actions": {
+    "disallows": {
+      "pausing": true
+    }
+  },
+  "is_playing": false
+}
