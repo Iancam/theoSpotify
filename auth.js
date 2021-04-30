@@ -4,7 +4,8 @@ const cors = require("cors");
 const querystring = require("querystring");
 const cookieParser = require("cookie-parser");
 const { generateRandomString } = require("./utils");
-require("dotenv").config();
+
+require("dotenv").config({ path: __dirname + "/.env" });
 var app = express();
 var { client_id, client_secret } = process.env;
 

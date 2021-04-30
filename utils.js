@@ -1,3 +1,5 @@
+const request = require("request");
+const { promisify } = require("util");
 /**
  * Generates a random string containing numbers and letters
  * @param  {number} length The length of the string
@@ -13,3 +15,11 @@ module.exports.generateRandomString = function (length) {
   }
   return text;
 };
+
+module.exports.http = "get put post delete".split(" ").map((method) => (opts) =>
+  promisify(request[method])({
+    headers: { Authorization: "Bearer " + opts.token },
+    json: true,
+    ...opts,
+  })
+);
